@@ -3,6 +3,10 @@ html, body {
     margin:0px;
     padding:0px;
 }
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
 .welcome {
     height: 500px; 
     background-color: #87509c; 
@@ -158,6 +162,7 @@ html, body {
     color: #ffffff;
     border: 0; 
     border-radius: 5pt;
+    resize: none;
 }
 .load_btn {
     width: 293px; 
