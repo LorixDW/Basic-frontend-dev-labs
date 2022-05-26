@@ -3,8 +3,10 @@ html, body {
     margin:0px;
     padding:0px;
 }
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
 ::placeholder { 
     color: rgb(255, 255, 255);
+    font-family: 'Titillium Web', sans-serif;
    }
 a {
     text-decoration: none;
@@ -38,7 +40,8 @@ a {
     margin: 0; 
     padding: 5px; 
     color: #ffffff; 
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
 }
 .nav_bar li {
     display: inline; 
@@ -56,12 +59,14 @@ a {
 }
 .top_text {
     color: #ffffff; 
-    font-family:Arial, Helvetica, sans-serif; 
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 700;
     font-size: 42px; 
     margin-top: 100px;
 } 
 .top_button {
     width: 293px; 
+    font-weight: 600;
     height: 70px; 
     font-size: 18px; 
     background-color: #eb7d4b; 
@@ -75,10 +80,11 @@ a {
     height: 1000pt; 
     text-align: center; 
     color: #393939;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Titillium Web', sans-serif;
 }
 .main_header {
     font-size: 40px; 
+    font-weight: 700;
     display: block; 
     padding-top: 100px; 
     letter-spacing: 4px;
@@ -92,6 +98,10 @@ a {
 }
 .second_par {
     font-size: 18px;
+    font-weight: 400;
+}
+.portf_nav {
+    font-weight: 400;
 }
 .portf_nav li {
     display: inline;
@@ -114,9 +124,11 @@ a {
 .apps {
     display: inline-block; 
     text-align: center;
+    font-weight: 400;
 }
 .port_btn {
     width: 293px; 
+    font-weight: 600;
     height: 70px; 
     font-size: 18px; 
     background-color: #17c2a4; 
@@ -130,13 +142,15 @@ a {
     background-color: #3c5499; 
     height: 800px; 
     color: #ffffff; 
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Titillium Web', sans-serif;
     text-align: center;
+    font-weight: 400;
 }
 .foot_head {
     font-size: 40px; 
     padding-top: 100px; 
     display: block; 
+    font-weight: 700;
     letter-spacing: 4px;
 }
 .line_foot {
@@ -149,6 +163,7 @@ a {
 .form {
     display: inline-block; 
     text-align: center;
+    font-family: 'Titillium Web', sans-serif;
 }
 .form_top {
     width: 414px; 
@@ -183,11 +198,12 @@ a {
     display: inline-block; 
     text-align: center;
     box-shadow: inset 0px -5px 0px -1px #00000021;
+    font-weight: 600;
 }
 .bottom {
     background-color: #344b8e; 
     text-align: center; 
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Titillium Web', sans-serif;
     font-size: 24px; 
     color: #ffffff;
 }
@@ -198,4 +214,5 @@ a {
 .bot_nav li {
     display: inline; 
     margin-right: 50px;
+    font-weight: 600;
 }
