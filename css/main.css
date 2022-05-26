@@ -71,6 +71,7 @@ main {
     border-width: 1px;
 }
 .article {
+    
     text-align: left;
     color: #0A2541;
     display: inline-block;
@@ -97,7 +98,6 @@ main {
 .label {
     display: block;
     font-size: 16px;
-    text-decoration: underline;
     opacity: 0.5;
     margin-bottom: 7px;
 }
@@ -270,6 +270,9 @@ main {
         margin-right: 20px;
         width: 90px;
     }
+    .article {
+        width: 300px;
+    }
  }
 
 @media (max-width: 991.98px) and (min-width: 768px) { 
@@ -295,6 +298,9 @@ main {
         margin-left: 20px;
         width: 90px;
     }
+    .article {
+        width: 650px;
+    }
  }
 
 @media (max-width: 1230.98px) and (min-width: 992px) { 
@@ -312,8 +318,17 @@ main {
     .log_button {
         margin-right: 34px;
     }
+    .article {
+        width: 800px;
+    }
  }
 
 @media (max-width: 1399.98px) and (min-width: 1231px) { 
     
+ }
+ @media (min-width: 1400px)
+ {
+    .article {
+        width: 1200px;
+    }
  }
